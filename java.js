@@ -13,6 +13,13 @@ var data=document.getElementById("out");
     ext="";
     opt=op;
    }
+   function clearAll(){
+    data.value="";
+    ext="";
+    num1=0;
+    num2=0;
+    opt="";
+   }
 
 
        function result()
